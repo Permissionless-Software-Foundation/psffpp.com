@@ -2,46 +2,10 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The [Permissonless Software Foundation](https://psfoundation.info) File Pinning Protocol (PSFFPP) is a system for [pinning](https://dweb-primer.ipfs.io/files-on-ipfs/pin-files) files on the [IPFS network](https://ipfs.tech/). Files are redundantly stored on multiple internet servers, for fast and reliable access. Files are stored for at least one year, at a cost of around $0.01 USD per megabyte of data. File hosting can be renewed, to extend the hosting past one year.
 
-## Getting Started
+## Community
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The protocol, code, and infrastructure to support the PSFFPP is maintained by the PSF community. They primarily communicate over [the PSF Telegram channel](https://t.me/permissionless_software) and [the PSF GitHub repositories](https://github.com/Permissionless-Software-Foundation).
