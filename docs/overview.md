@@ -46,3 +46,9 @@ The software that does the file pinning is composed of two pieces of software. T
   - It then pins the file to its local IPFS node.
 
 Both pieces of software are written in node.js JavaScript, and are based on this [ipfs-service-provider boilerplate](https://github.com/Permissionless-Software-Foundation/ipfs-service-provider). Anyone can run these pieces of software on their own computer, in order to get direct access to the collection of files stored on the network.
+
+## More Information
+
+This 20 minutes video gives a walkthrough of the major concepts on this page.
+
+<iframe width="600" height="400" src="https://www.youtube.com/embed/flaEm4RFzYA" title="PSF File Pin Service - Technical Introduction" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
