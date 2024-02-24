@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'PSFFPP',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -93,43 +93,51 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
+              {
+                label: 'Blog',
+                to: '/blog',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Telegram',
+                href: 'https://t.me/permissionless_software',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/Permissionless-Software-Foundation',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/PSF_DAO',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Related Sites',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'PSFoundation.cash',
+                href: 'https://psfoundation.cash',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'PSFoundation.info',
+                href: 'https://psfoundation.info',
               },
+              {
+                label: 'Cash Stack',
+                href: 'https://cashstack.info',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Permissonless Software Foundation`,
       },
       prism: {
         theme: prismThemes.github,

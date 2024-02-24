@@ -36,7 +36,7 @@ export default function Home() {
       description="A decentralized IPFS pinning service, permissionless, and payable with Bitcoin Cash.">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        
       </main>
     </Layout>
   );
