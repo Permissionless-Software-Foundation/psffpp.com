@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'PSF File Pinning Protocol',
   tagline: 'An anonymous, permissionless, decentralized protocol for IPFS File Pinning',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/psf-logo.png',
 
   // Set the production url of your site here
   url: 'https://psffpp.com',
@@ -64,12 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/psffpp-social-card.jpg',
       navbar: {
         title: 'PSFFPP',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'psffpp.com',
+          src: 'img/psf-logo.png',
         },
         items: [
           {
@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Permissionless-Software-Foundation',
             label: 'GitHub',
             position: 'right',
           },
